@@ -12,8 +12,9 @@ public class HalloJavaMitForEach {
             System.out.println(stringList.get(i));
         }
 
+        //Beide Befehle sind das gleiche
         stringList.forEach((String s) -> System.out.println(s));
         Consumer<String> consumer = (String s) -> System.out.println(s);
-
+        stringList.forEach(System.out::println);
     }
 }
