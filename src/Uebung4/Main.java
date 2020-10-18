@@ -97,7 +97,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         printChooseCalcMenu();
-        int calcInput = sc.nextInt();
+        int calcInput = -1;
 
         while (calcInput != 4) {
 
